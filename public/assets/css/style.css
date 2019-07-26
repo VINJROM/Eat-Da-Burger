@@ -1,19 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+body {
+    background-color: rgb(255, 175, 71);
 }
 
 .label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
 }
 
 .form-group {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
 }
