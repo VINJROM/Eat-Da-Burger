@@ -9,8 +9,9 @@
   width: 50%;
 }
 
-h1, h2, h3{
+h1, h2, h3, li,button, label, form-group{
     text-align: center;
+    font-family: monospace;
 }
 
 li {
