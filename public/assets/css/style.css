@@ -3,15 +3,27 @@
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-h1, h2, h3, li,button, label, form-group{
+h1,
+h2,
+h3,
+li,
+button,
+label {
     text-align: center;
     font-family: monospace;
+}
+
+.burgerBox {
+    margin: auto;
+    width: 28%;
+    border: 3px;
+    padding: 10px;
 }
 
 li {
