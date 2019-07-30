@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-### Burger.js ###
-=======
-### Burger ###
->>>>>>> c2f723400e0bcef06a53f6947b4f023c647526bf
-
 # Description #
 This application was built using technologies including Handlebars, Express, Node, ORM, and SQL Databases. Inside the application, users type the name of a burger they would like to eat, which adds the respective value to a SQL database and displays it on the webpage. After clicking "Devour it" the database will be deleted and reflected properly on the webpage.
 
