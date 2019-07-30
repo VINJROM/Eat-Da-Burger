@@ -19,9 +19,9 @@ label {
     font-family: monospace;
 }
 
-#burgerBox {
+.burgerBox {
     margin: auto;
-    width: 60%;
+    width: 28%;
     border: 3px;
     padding: 10px;
 }
